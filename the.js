@@ -5,17 +5,17 @@ function acrony(input, option) {
     option = Number(option);
     if (typeof input === "string" && /^(0|1)$/.test(option)) {
         if (input !== "") {
-            bfr = input.toString().replace(/(\s|[^A-Za-z0-9])/g, " ").split(" ");
-            bfr.forEach(function (v, i) {
+            bfr = input.toString().replace(/(\s|[^A-Za-z0-9])/g, " ").split(" "); // this RegExp filter and the splitting reference can be modified all you want.
+            bfr.forEach(function (v, i) { // get the first letter.
                 bfr[i] = v.substring(0, 1).toUpperCase();
             });
-            if (option === 1) { // using number to mark same letters
+            if (option === 1) { // using number to mark same consecutive chars.
                 bfr.forEach(function (v, i) {
                     if (v === bfr[i + 1]) {
                         bfr[i] = "";
                     }
                 });
-                bfr.forEach(function (v, i) {
+                bfr.forEach(function (v, i) { // the thingy.
                     if (v === "") {
                         index += 1;
                     } else {
