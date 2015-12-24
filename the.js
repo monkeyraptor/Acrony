@@ -9,7 +9,7 @@ function acrony(input, option) {
             bfr.forEach(function (v, i) {
                 bfr[i] = v.substring(0, 1).toUpperCase();
             });
-            if (Number(option) === 1) { // using number to mark same letters
+            if (option === 1) { // using number to mark same letters
                 bfr.forEach(function (v, i) {
                     if (v === bfr[i + 1]) {
                         bfr[i] = "";
