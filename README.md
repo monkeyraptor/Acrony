@@ -27,5 +27,5 @@ Option `1` will group the consecutive same characters with number.
 | `acrony(["string", "strong"], 0)`   | [ERROR string] |
 | `acrony({key: value}, 1)`   | [ERROR string] |
 
-## With Use Interface
+## With HTML Interface
 Go to <a href="http://portraptor.johanpaul.net/2015/12/initialismacronymer.html" target="_blank" title="new window">Port Raptor</a>
