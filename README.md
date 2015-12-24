@@ -25,7 +25,7 @@ Option `1` will do the option `0` task and group the consecutive same characters
 | `acrony(80, undefined)`      | [ERROR string] |
 | `acrony("Rambo Ratatoey Rudolph", 3)`   | [ERROR string] |
 | `acrony(["string", "strong"], 0)`   | [ERROR string] |
-| `acrony({key: value}, 1)`   | [ERROR string] |
+| `acrony({key: "value"}, 1)`   | [ERROR string] |
 
 ## With HTML Interface
 Go to <a href="http://portraptor.johanpaul.net/2015/12/initialismacronymer.html" target="_blank" title="new window">Port Raptor</a>
