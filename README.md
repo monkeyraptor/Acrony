@@ -12,9 +12,9 @@ acrony(the_strings, option)
 | `the_strings`      | the input string |
 | `option`     | can be `0` or `1`   |
 
-Option `0` is the default output. `0` option will take the first letter of the word.
+Option `0` will take the first letter of the word. No other task.
 
-Option `1` will group the consecutive same characters with number.
+Option `1` will do the option `0` task and group the consecutive same characters with number.
 
 ## Examples
 | Input | Output          |
