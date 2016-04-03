@@ -21,7 +21,7 @@ Option `1` will do the option `0` task and group the consecutive same characters
 | ------------- | ----------- |
 | `acrony("Run Ran Run", 0)`      | "RRR" |
 | `acrony("Run Ran Run", 1)`      | "R3" |
-| `acrony("Run Run Run, You-Son_of-Off-chart", 1)`      | "R4Y2SO2C" |
+| `acrony("Run Run Run, You-Son_of-Off-chart", 1)`      | "R3YSO2C" |
 | `acrony(80, undefined)`      | [ERROR string] |
 | `acrony("Rambo Ratatoey Rudolph", 3)`   | [ERROR string] |
 | `acrony(["string", "strong"], 0)`   | [ERROR string] |
